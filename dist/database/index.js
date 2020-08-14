@@ -38,7 +38,7 @@ var __generator = (this && this.__generator) || function (thisArg, body) {
 Object.defineProperty(exports, "__esModule", { value: true });
 var typeorm_1 = require("typeorm");
 exports.default = (function (name) {
-    if (name === void 0) { name = 'default'; }
+    if (name === void 0) { name = "default"; }
     return __awaiter(void 0, void 0, void 0, function () {
         var defaultOptions;
         return __generator(this, function (_a) {
@@ -48,8 +48,8 @@ exports.default = (function (name) {
                     defaultOptions = _a.sent();
                     return [2 /*return*/, typeorm_1.createConnection(Object.assign(defaultOptions, {
                             name: name,
-                            database: process.env.NODE_ENV === 'test'
-                                ? 'gostack_desafio06_tests'
+                            database: process.env.NODE_ENV === "test"
+                                ? "gostack_desafio06_tests"
                                 : defaultOptions.database,
                         }))];
             }

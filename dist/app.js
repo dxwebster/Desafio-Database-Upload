@@ -19,14 +19,14 @@ app.use(routes_1.default);
 app.use(function (err, request, response, _) {
     if (err instanceof AppError_1.default) {
         return response.status(err.statusCode).json({
-            status: 'error',
+            status: "error",
             message: err.message,
         });
     }
     console.error(err);
     return response.status(500).json({
-        status: 'error',
-        message: 'Internal server error',
+        status: "error",
+        message: "Internal server error",
     });
 });
 exports.default = app;

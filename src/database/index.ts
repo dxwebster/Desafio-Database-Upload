@@ -6,7 +6,10 @@ export default async (name = "default"): Promise<Connection> => {
   return createConnection(
     Object.assign(defaultOptions, {
       name,
-      database: process.env.HEROKU_POSTGRESQL_GRAY_URL,
+      database:
+        process.env.NODE_ENV === "test"
+          ? "gostack_desafio06_tests"
+          : defaultOptions.database,
     })
   );
 };
