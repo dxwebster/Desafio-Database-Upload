@@ -1,6 +1,6 @@
 console.log(
-  "process.env.HEROKU_POSTGRESQL_GRAY_UR :>>",
-  process.env.HEROKU_POSTGRESQL_GRAY_UR
+  "process.env.HEROKU_POSTGRESQL_GRAY_URL :>>",
+  process.env.HEROKU_POSTGRESQL_GRAY_URL
 );
 module.exports = {
   type: "postgres",
