@@ -1,6 +1,6 @@
 {
   "name": "desafio-06",
-  "version": "1.0.0",
+  "version": "v12.18.0",
   "main": "index.js",
   "license": "MIT",
   "scripts": {
@@ -33,7 +33,6 @@
     "@typescript-eslint/eslint-plugin": "^2.27.0",
     "@typescript-eslint/parser": "^2.27.0",
     "cross-env": "^7.0.2",
-    "eslint": "^7.6.0",
     "eslint-config-airbnb-base": "^14.1.0",
     "eslint-config-prettier": "^6.10.1",
     "eslint-import-resolver-typescript": "^2.0.0",
