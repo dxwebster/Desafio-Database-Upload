@@ -14,11 +14,11 @@
 
 {
   "type": "postgres",
-  "host": "ec2-3-213-102-175.compute-1.amazonaws.com",
+  "host": "ec2-52-22-94-132.compute-1.amazonaws.com",
   "port": 5432,
-  "username": "brxccwahmksmhk",
-  "password": "3c845d936106b57f9a8a7a0d777b4a56d0da7fb70ff5d46466b7ae219efcf0b9",
-  "database": "depkgffb8d0ogc",
+  "username": "ubgdkndbpenoub",
+  "password": "f537e4c7efd2c814c3a4049bfd4acdfe6642f93b6fe8941df626d2ea18c4327e",
+  "database": "dc8takbdt67h1s",
 
 
   "entities": ["./dist/models/*.js"],
