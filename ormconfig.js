@@ -1,3 +1,5 @@
+
+
 module.exports = {
   "url": process.env.TYPEORM_URL,
 
@@ -7,3 +9,4 @@ module.exports = {
     "migrationsDir": "./src/database/migrations"
   }
 } 
+
