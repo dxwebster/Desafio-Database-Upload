@@ -1,7 +1,7 @@
 
 
 module.exports = {
-  "url": process.env.TYPEORM_URL,
+  "url": process.env.BASE_URL,
 
   "entities": process.env.TYPEORM_ENTITIES,
   "migrations": process.env.TYPEORM_MIGRATIONS,
