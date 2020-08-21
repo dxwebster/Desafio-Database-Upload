@@ -1,4 +1,3 @@
-
 module.exports = {
   "url": process.env.TYPEORM_URL,
 
