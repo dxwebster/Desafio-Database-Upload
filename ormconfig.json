@@ -1,16 +1,14 @@
-[
-
-{
+[{
   "type": "postgres",
-  "host": "ec2-52-22-94-132.compute-1.amazonaws.com",
+  "host": "ec2-54-91-178-234.compute-1.amazonaws.com",
   "port": 5432,
-  "username": "ubgdkndbpenoub",
-  "password": "f537e4c7efd2c814c3a4049bfd4acdfe6642f93b6fe8941df626d2ea18c4327e",
-  "database": "dc8takbdt67h1s",
+  "username": "tjcmnprwdsbzqz",
+  "password": "63f9cef0e1f656dea0e5d64b20536b725b56e98b3f1ff304faa1358916cc60ba",
+  "database": "da1cbidvnf3kbs",
 
 
   "entities": ["./dist/models/*.js"],
-  "migrations": ["./dist/database/migrations/*.1s"],
+  "migrations": ["./dist/database/migrations/*.js"],
   "cli": {
     "migrationsDir": "./src/database/migrations"
   }
